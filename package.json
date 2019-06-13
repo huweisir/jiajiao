@@ -1,0 +1,28 @@
+{
+  "name": "jiajiao",
+  "version": "1.0.0",
+  "description": "my jia jiao",
+  "author": "huwei",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0",
+    "ant-design-vue": "^1.1.10",
+    "cross-env": "^5.2.0",
+    "koa": "^2.6.2",
+    "nuxt": "^2.0.0",
+    "ts-node": "^8.2.0",
+    "vue-property-decorator": "^8.1.1"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "nodemon": "^1.18.9"
+  }
+}
